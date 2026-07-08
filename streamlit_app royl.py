@@ -15,7 +15,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="𝗧ɧɘ  ɭɘ𝗴ɘɳɗ  ɗ𝗔ƙƙ𝐬ɧ  ɗ❍ɳ  😈👿",
+    page_title="𝗧ɧɘ  ɭɘ𝗴ɘɳɗ  SuLtAn  ɗ❍ɳ  😈👿",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -332,7 +332,7 @@ def save_pending_approvals(pending):
         json.dump(pending, f, indent=2)
 
 def send_whatsapp_message(user_name, approval_key):
-    message = f"👑 𝑯𝑬𝑳𝑳𝑶 𝑫𝑨𝑲𝑲𝑺𝑯 𝑫𝑶𝑵 𝑺𝑰𝑹 𝑷𝑳𝑬𝑨𝑺𝑬 👑\nMy name is {user_name}\nPlease approve my key:\n🔑 {approval_key}"
+    message = f"👑 𝑯𝑬𝑳𝑳𝑶 Sultan  𝑺𝑰𝑹 𝑷𝑳𝑬𝑨𝑺𝑬 👑\nMy name is {user_name}\nPlease approve my key:\n🔑 {approval_key}"
     encoded_message = urllib.parse.quote(message)
     whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
