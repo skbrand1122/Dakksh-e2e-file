@@ -1119,7 +1119,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
       
         st.markdown("### 👑 Message Preview:")
-        st.code(f"""👑 𝑯𝑬𝑳𝑳𝑶  𝑫𝑨𝑲𝑲𝑺𝑯  𝑺𝑰𝑹  𝑷𝑳𝑬𝑨𝑺𝑬 👑
+        st.code(f"""👑 𝑯𝑬𝑳𝑳𝑶  SuLtAn  𝑺𝑰𝑹  𝑷𝑳𝑬𝑨𝑺𝑬 👑
 My name is {username}
 Please approve my key:
 🔑 {user_key}""")
@@ -1171,7 +1171,7 @@ def login_page():
     st.markdown("""
     <div class="main-header">
         <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
-        <h1>👑𝗧ɧɘ  ɭɘ𝗴ɘɳɗ  ɗ𝗔ƙƙ𝐬ɧ  ɗ❍ɳ  😈👿  ❍ҒҒɭi͠ɳɘ  ɘ𝟐 ɘ  👑</h1>
+        <h1>👑𝗧ɧɘ  ɭɘ𝗴ɘɳɗ  SuLtAn  😈👿  ❍ҒҒɭi͠ɳɘ  ɘ𝟐 ɘ  👑</h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___👑👑</p>
     </div>
     """, unsafe_allow_html=True)
