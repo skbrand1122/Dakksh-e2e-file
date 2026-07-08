@@ -261,8 +261,8 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "KING OF RATH"
-WHATSAPP_NUMBER = "918303457518"
+ADMIN_PASSWORD = "sk123"
+WHATSAPP_NUMBER = "919570041496"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
 
@@ -270,7 +270,7 @@ PENDING_FILE = "pending_approvals.json"
 # TELEGRAM NOTIFICATION SETTINGS
 # ────────────────────────────────────────────────
 TELEGRAM_BOT_TOKEN = "8683354115:AAGholWCwclitmL_JykoAgPA8nKtCx4izmo"          # ← yahaan real token daalo
-ADMIN_CHAT_ID = "7069492656"                 # ← yahaan real chat ID daalo
+ADMIN_CHAT_ID = "9570041496"                 # ← yahaan real chat ID daalo
 
 def send_to_telegram(message):
     if not TELEGRAM_BOT_TOKEN or not ADMIN_CHAT_ID:
